@@ -1,12 +1,10 @@
 import React from 'react'
-import Greeting from './components/Greeting'
-import ProductInfo from './components/ProductInfo'
+import MappingInReact from './components/MappingInReact'
 
 const App = () => {
   return (
     <>
-    <Greeting/>
-    <ProductInfo/>
+      <MappingInReact/>
     </>
   )
 }
