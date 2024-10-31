@@ -6,7 +6,7 @@ import { FaUserAstronaut } from "react-icons/fa";
 const page = () => {
   return (
     <div className='px-10 py-5'>
-      <div className="topic-name">
+      <div className="flex items-center gap-4 justify-center text-center text-4xl uppercase underline font-semibold">
       <FaReact /> Learn React with me <FaUserAstronaut />
       </div>
 

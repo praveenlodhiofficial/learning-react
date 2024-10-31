@@ -1,0 +1,54 @@
+{
+  "jargonQuestions": [
+    {
+      "id": 1,
+      "question": "1. What is React?",
+      "answer": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently."
+    },
+    {
+      "id": 2,
+      "question": "2. What are the advantages of using React?",
+      "answer": "React has a component-based architecture, making code more reusable and maintainable. It uses a virtual DOM for faster rendering and supports a unidirectional data flow, which makes debugging easier."
+    },
+    {
+      "id": 3,
+      "question": "3. What is the virtual DOM?",
+      "answer": "The virtual DOM is a lightweight copy of the actual DOM. React uses the virtual DOM to optimize updates by only re-rendering elements that have changed, which improves performance."
+    },
+    {
+      "id": 4,
+      "question": "4. What are hooks in React?",
+      "answer": "Hooks are functions that let you use React features (such as state and lifecycle methods) in functional components. Some common hooks include useState, useEffect, and useContext."
+    },
+    {
+      "id": 5,
+      "question": "5. What is JSX?",
+      "answer": "JSX is a syntax extension for JavaScript that looks similar to HTML. It allows developers to write HTML elements within JavaScript, which React compiles to JavaScript functions. JSX makes code more readable and intuitive."
+    },
+    {
+      "id": 6,
+      "question": "6. What is the purpose of useState in React?",
+      "answer": "useState is a hook that allows functional components to add state variables. It returns an array with the current state and a function to update it, enabling components to handle dynamic data."
+    },
+    {
+      "id": 7,
+      "question": "7. How does useEffect work in React?",
+      "answer": "useEffect is a hook that allows side effects in functional components, such as fetching data, setting up subscriptions, or manually changing the DOM. It runs after every render by default and can be customized with dependencies to run conditionally."
+    },
+    {
+      "id": 8,
+      "question": "8. What is the context API in React?",
+      "answer": "The context API allows React to share values between components without passing props through every level of the tree. It’s useful for managing global data, like themes and user data, that need to be accessible throughout the app."
+    },
+    {
+      "id": 9,
+      "question": "9. What is prop drilling in React, and how can it be avoided?",
+      "answer": "Prop drilling is the process of passing data through multiple levels of components, which can make the codebase harder to maintain. It can be avoided by using the context API or state management libraries like Redux."
+    },
+    {
+      "id": 10,
+      "question": "10. What are React fragments?",
+      "answer": "React fragments allow grouping multiple elements without adding an extra node to the DOM. This helps to maintain a cleaner structure and avoid unnecessary nesting."
+    }
+  ]
+}
