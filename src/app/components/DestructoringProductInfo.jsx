@@ -1,6 +1,10 @@
 import React from 'react'
+import codestring from '../data/codestring.json'
+import CodePreview from '../components/CodePreview'
 
 const DestructoringProductInfoListUsingMapFunction = () => {
+
+    const productsInfoString = codestring.productsInfo.productsInfoString;
 
     const ProductsInfo = [
         {
@@ -26,12 +30,12 @@ const DestructoringProductInfoListUsingMapFunction = () => {
     ]
 
     return (
-        <div className='flex gap-2'>
+        <div className='flex w-[100%] justify-between gap-16'>
             Products Information:
             <div className='flex flex-col gap-6'>
                 {
                     ProductsInfo.map(({ name, price, description }, index) => (
-                        <ul key={index} className='w-[50%]'>
+                        <ul key={index} >
                             <div className='flex justify-between mb-2'>
                                 <div className='underline text-red-500 font-extrabold'>{name}</div>
                                 <div className='text-green-600 font-extrabold'>${price}</div>
@@ -41,6 +45,9 @@ const DestructoringProductInfoListUsingMapFunction = () => {
                     ))
                 }
             </div>
+
+            {/* CODE PREVIEW */}
+            <CodePreview codeString={productsInfoString} />
         </div>
     )
 }

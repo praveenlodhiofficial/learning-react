@@ -1,12 +1,18 @@
 import React from 'react';
+import codestring from '../data/codestring.json'
+import CodePreview from '../components/CodePreview'
 
 const FriendListUsingMapFunction = () => {
+
+    const friendListString = codestring.friendList.friendListString;
 
     const names = ['Praveen', 'Piyush', 'Shourya', 'Parshav'];
 
     return (
-        <div>
-            < div className='flex gap-2'>
+        <div className='flex w-[100%] justify-between'>
+
+            {/* MAIN CONTENT */}
+            < div className='flex gap-2 w-[40vw]'>
                 Friend List:
                 <div>
                     {
@@ -17,7 +23,9 @@ const FriendListUsingMapFunction = () => {
                     }
                 </div>
             </div >
-            <br /><br />
+
+            {/* CODE PREVIEW */}
+            <CodePreview codeString={friendListString} />
 
         </div>
     );

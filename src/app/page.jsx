@@ -13,18 +13,23 @@ const page = () => {
       <div className='p-6 flex flex-col gap-2'>
 
         {/* Jargaon of React */}
-        <Link href='/pages/jargon-of-react' className='text-sm'>
+        <Link href='/module01' className='text-sm'>
           1. Jargon of React
         </Link>
 
         {/* Embedding Dynamic Content */}
-        <Link href='/pages/embedding-dynamic-content' className='text-sm'>
+        <Link href='module02' className='text-sm'>
           2. Embedding Dynamic Content
         </Link>
 
         {/* Module 03 - List In React */}
         <Link href='/module03' className='text-sm'>
-          3. List In React
+          3. List In React (using map function)
+        </Link>
+
+        {/* Module 04 - Props In React */}
+        <Link href='/module04' className='text-sm'>
+          4. Props In React
         </Link>
 
       </div>

@@ -1,6 +1,10 @@
 import React from 'react'
+import codestring from '../data/codestring.json'
+import CodePreview from '../components/CodePreview'
 
 const UsersInfoListUsingMapFunction = () => {
+
+    const usersInfoString = codestring.usersInfo.usersInfoString;
 
     const usersInfo = [
         {
@@ -21,10 +25,10 @@ const UsersInfoListUsingMapFunction = () => {
     ]
 
     return (
-        <div>
+        <div className='flex justify-between w-[100%]'>
             <div className='flex gap-2'>
                 Users Information:
-                <div className='flex flex-col'>
+                <div className='flex flex-col gap-10'>
                     {
                         usersInfo.map((userInfo, index) => (
                             <ul key={index}>
@@ -38,8 +42,9 @@ const UsersInfoListUsingMapFunction = () => {
                 </div>
 
             </div>
-            <br /><br />
 
+            {/* CODE PREVIEW */}
+            <CodePreview codeString={usersInfoString} />
         </div>
     )
 }
