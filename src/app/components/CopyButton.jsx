@@ -30,7 +30,7 @@ const CopyButton = ({ text }) => {
                 className="absolute top-2 right-2 font-mono"
                 aria-label="Copy code"
             >
-                <MdContentCopy className="size-4 hover:size-5 transition-all duration-100 hover:text-green-600" />
+                <MdContentCopy className="size-4 active:size-5 transition-all duration-200 active:text-green-600" />
             </button>
         </div>
     );

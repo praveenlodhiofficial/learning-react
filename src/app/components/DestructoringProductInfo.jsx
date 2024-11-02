@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import codestring from '../data/codestring.json'
 import CodePreview from '../components/CodePreview'
@@ -46,8 +48,10 @@ const DestructoringProductInfoListUsingMapFunction = () => {
                 }
             </div>
 
-            {/* CODE PREVIEW */}
-            <CodePreview codeString={productsInfoString} />
+            <div>
+                {/* CODE PREVIEW */}
+                <CodePreview codeString={productsInfoString} />
+            </div>
         </div>
     )
 }

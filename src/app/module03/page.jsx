@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link';
 import React from 'react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -11,7 +13,7 @@ const ListInReact = () => {
     const names = ['Praveen', 'Piyush', 'Shourya', 'Parshav'];
 
     return (
-        <div className='px-10 py-4 text-xs justify-center items-center'>
+        <div className='px-10 py-4 text-sm justify-center items-center'>
 
             {/* Topic header with navigation */}
             <div className="flex items-center justify-between text-3xl font-semibold mb-4 p-3 border border-yellow-100 border-dashed border-opacity-35 rounded-lg">

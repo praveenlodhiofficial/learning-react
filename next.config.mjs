@@ -2,7 +2,8 @@
 
 const nextConfig = {
     images: {
-      domains: ['imgs.search.brave.com'], // Add your image domain here
+      
+      domains: ['encrypted-tbn0.gstatic.com', 'imgs.search.brave.com', 'brownliving.in', 'cdn.shopify.com'], // Add your image domain here
     },
   }
 

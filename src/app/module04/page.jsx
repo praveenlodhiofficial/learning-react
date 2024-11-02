@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link';
 import React from 'react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -15,7 +17,7 @@ const ListInReact = () => {
                     <FaChevronLeft className="hover:text-gray-600 dark:hover:text-gray-400 transition duration-200" />
                 </Link>
                 <div className="text-center underline">Props In React</div>
-                <Link href='/'>
+                <Link href='/module05'>
                     <FaChevronRight className="hover:text-gray-600 dark:hover:text-gray-400 transition duration-200" />
                 </Link>
             </div>

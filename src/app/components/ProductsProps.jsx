@@ -9,7 +9,7 @@ const ProductsProps = () => {
     return (
         <div className='flex justify-between w-[100%]'>
             <div>
-            <Product
+                <Product
                     name='Washing Machine'
                     img='https://imgs.search.brave.com/bnb5p0WGCL9fPYTHRuMEBxmyFRNDzgailLNEwtEDVoM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA5LzY3Lzg5LzQ2/LzM2MF9GXzk2Nzg5/NDYwN19EeHYxaENT/bHhScnNrMzhqUm9a/ZjRiRWFZMXo4MTVz/US5qcGc'
                     description='A front-loading washing machine with energy-saving features.'
